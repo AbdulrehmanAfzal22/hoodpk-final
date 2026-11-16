@@ -1,0 +1,26 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {PGlite} from '@electric-sql/pglite';
+import data from '../src/data/uploadedCatalogue.json' with {type:'json'};
+test('optional catalogue import preserves other storefronts and blocks enquiry checkout',async()=>{
+ const db=new PGlite();
+ await db.exec(`create schema private;create role anon;create role authenticated;
+ create table categories(id uuid primary key default gen_random_uuid(),name text unique,slug text unique,description text,is_accessory boolean,is_active boolean,display_order int,image_path text,image_alt text,storefront text default 'legacy' constraint categories_storefront_check check(storefront in ('legacy','sunnah')));
+ create table products(id uuid primary key default gen_random_uuid(),category_id uuid references categories(id),name text,description text,care text,price_cents int not null constraint products_price_cents_check check(price_cents>0 and price_cents<=100000000),status text,featured boolean,department text,storefront text default 'legacy' constraint products_storefront_check check(storefront in ('legacy','sunnah')));
+ create table product_images(id uuid primary key,product_id uuid references products(id),path text unique,color text,alt text,position int);
+ create table product_variants(id uuid primary key default gen_random_uuid(),product_id uuid references products(id));
+ create table cart_items(variant_id uuid references product_variants(id));
+ insert into products(name,price_cents,status,storefront) values('Legacy record',10000,'published','legacy'),('Other store record',20000,'published','sunnah');`);
+ const sql=readFileSync(new URL('../supabase/updates/hood_uploaded_catalogue.sql',import.meta.url),'utf8');
+ await db.exec(sql);await db.exec(sql);
+ const counts=(await db.query('select storefront,count(*) as n from products group by storefront')).rows;
+ assert.equal(Number(counts.find(row=>row.storefront==='hood').n),10);assert.equal(Number(counts.find(row=>row.storefront==='legacy').n),1);assert.equal(Number(counts.find(row=>row.storefront==='sunnah').n),1);
+ assert.equal(Number((await db.query('select count(*) as n from product_images')).rows[0].n),23);
+ assert.equal(Number((await db.query('select count(*) as n from products where enquiry_only and price_cents is null')).rows[0].n),10);
+ const id=data.products[0].id;
+ await assert.rejects(db.query('update products set price_cents=1 where id=$1',[id]),/products_price_cents_check/);
+ const variant=(await db.query('insert into product_variants(product_id) values($1) returning id',[id])).rows[0].id;
+ await assert.rejects(db.query('insert into cart_items(variant_id) values($1)',[variant]),/enquiry-only/);
+ await db.close();
+});

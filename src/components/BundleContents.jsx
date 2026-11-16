@@ -1,0 +1,2 @@
+import {imageUrl} from '../lib/supabase';
+export default function BundleContents({items=[]}){return items.length?<div className="bundle-saved-contents"><strong>Bundle includes</strong><ul>{items.map(item=><li key={item.slot_product_id||item.product_id}>{item.image_path&&<img src={imageUrl(item.image_path)} alt="" loading="lazy"/>}<div><strong>{item.product_name}</strong><span>{item.color} · Size {item.size}</span></div></li>)}</ul></div>:null;}

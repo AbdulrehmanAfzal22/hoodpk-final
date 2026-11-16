@@ -1,0 +1,10 @@
+[functions.instagram-feed]
+verify_jwt = false
+# Cron requests are authenticated by a private DB token checked inside the function.
+[functions.new-arrival-emails]
+verify_jwt = false
+
+[functions.hood-instagram-feed]
+verify_jwt = false
+[functions.hood-new-arrival-emails]
+verify_jwt = false

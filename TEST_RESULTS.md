@@ -1,0 +1,1 @@
+60 automated tests passed; production build passed. Full-backend SQL was exercised in an isolated PostgreSQL-compatible fixture. Live upgrade was rejected by automatic approval review; the smaller newsletter confirmation expired. No claim of live activation is made. See BACKEND_APPROVAL.md.

@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import data from '../src/data/uploadedCatalogue.json' with {type:'json'};
+import {uploadedImageUrl,mergeUploadedCatalogue,filterUploadedProducts} from '../src/lib/uploadedCatalogue.mjs';
+import {galleryImages} from '../src/lib/productOptions.js';
+test('all 23 supplied photos are packaged byte-for-byte under the assigned categories',()=>{assert.equal(data.assets.length,23);for(const asset of data.assets){const file=readFileSync(new URL('../public/assets/catalog/'+asset.path,import.meta.url));assert.equal(createHash('sha256').update(file).digest('hex'),asset.sha256);assert.equal(uploadedImageUrl(asset.path),'/assets/catalog/'+asset.path);}assert.equal(data.products.filter(p=>p.categories.slug==='combo-deals-bundles').length,6);assert.equal(data.products.filter(p=>p.categories.slug==='printed').length,3);});
+test('hoodie colours match the supplied list and select their own photograph',()=>{const hoodie=data.products.find(p=>p.categories.slug==='plain-hoodies');assert.deepEqual(hoodie.inquiry_colours.map(c=>c.color),['Brown','Orange','Yellow','Purple','Red','Hot Pink','Lilac','Navy Green','Baby Blue','White','Light grey','Black','Baby Pink','Navy Blue']);for(const colour of hoodie.inquiry_colours){const gallery=galleryImages(hoodie.product_images,colour.color);assert.equal(gallery.length,1);assert.equal(gallery[0].color,colour.color);}});
+test('approved Rs 1000 prices do not invent sizes or inventory',()=>{assert.equal(data.products.length,10);for(const product of data.products){assert.equal(product.enquiry_only,false);assert.equal(product.price_cents,100000);assert.deepEqual(product.product_variants,[]);assert.equal(product.featured,false);}});
+test('legacy catalogue rows are excluded while archived HOOD rows stay hidden',()=>{const legacy={id:'legacy-id',storefront:'legacy',status:'published'};const first=data.products[0];const rows=mergeUploadedCatalogue([legacy,{...first,storefront:'hood',status:'archived'}]);assert.ok(!rows.some(p=>p.id==='legacy-id'));assert.ok(!filterUploadedProducts(rows).some(p=>p.id===first.id));assert.equal(filterUploadedProducts(data.products,{categoryId:'printed'}).length,3);});

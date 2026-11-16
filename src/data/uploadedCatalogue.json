@@ -1,0 +1,805 @@
+{
+  "import_id": "hood-whatsapp-2026-11-15",
+  "categories": [
+    {
+      "id": "89c781c1-9e59-5728-8a60-a78a36609101",
+      "slug": "customised-hoodies",
+      "name": "Customised Hoodies",
+      "is_active": true,
+      "is_accessory": false,
+      "display_order": 1,
+      "description": "",
+      "image_path": null,
+      "image_alt": "Customised Hoodies"
+    },
+    {
+      "id": "4e2ba1c5-97ef-5f96-9a9a-bb473b87467e",
+      "slug": "printed",
+      "name": "Printed",
+      "is_active": true,
+      "is_accessory": false,
+      "display_order": 2,
+      "description": "",
+      "image_path": "03b529c4-add4-5061-8d59-2518e9d84fbc/photo-01.jpeg",
+      "image_alt": "Printed"
+    },
+    {
+      "id": "7ff1fde4-fa98-5f02-94e0-fded298cc23a",
+      "slug": "plain-hoodies",
+      "name": "Plain Hoodies",
+      "is_active": true,
+      "is_accessory": false,
+      "display_order": 3,
+      "description": "",
+      "image_path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-01.jpeg",
+      "image_alt": "Plain Hoodies"
+    },
+    {
+      "id": "9f8e11d0-2878-57ce-ad49-9384afa31399",
+      "slug": "zipper-hoodies",
+      "name": "Zipper Hoodies",
+      "is_active": true,
+      "is_accessory": false,
+      "display_order": 4,
+      "description": "",
+      "image_path": null,
+      "image_alt": "Zipper Hoodies"
+    },
+    {
+      "id": "1370039f-fc2a-5066-b9b3-cda1bb46c590",
+      "slug": "sweatshirts",
+      "name": "Sweatshirts",
+      "is_active": true,
+      "is_accessory": false,
+      "display_order": 5,
+      "description": "",
+      "image_path": null,
+      "image_alt": "Sweatshirts"
+    },
+    {
+      "id": "b04c2f2f-485a-534f-a6e8-11ed43cf7708",
+      "slug": "t-shirts",
+      "name": "T-Shirts",
+      "is_active": true,
+      "is_accessory": false,
+      "display_order": 6,
+      "description": "",
+      "image_path": null,
+      "image_alt": "T-Shirts"
+    },
+    {
+      "id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+      "slug": "combo-deals-bundles",
+      "name": "Combo Deals / Bundles",
+      "is_active": true,
+      "is_accessory": false,
+      "display_order": 7,
+      "description": "",
+      "image_path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+      "image_alt": "Combo Deals / Bundles"
+    }
+  ],
+  "products": [
+    {
+      "id": "f85b681f-13c3-54db-aeee-849641cd500f",
+      "category_id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+      "name": "With Love Bundle",
+      "description": "Bundle reference supplied for THE HOOD.PK. Contact us on WhatsApp to confirm the included items, available colours, sizes, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "f5b9e332-d3aa-5d78-b15c-6fe98884bf3e",
+          "product_id": "f85b681f-13c3-54db-aeee-849641cd500f",
+          "path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+          "alt": "With Love Bundle",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+        "slug": "combo-deals-bundles",
+        "name": "Combo Deals / Bundles",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 7,
+        "description": "",
+        "image_path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+        "image_alt": "Combo Deals / Bundles"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "ef70d7aa-ec9b-5738-b759-75cd66b247fb",
+      "category_id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+      "name": "Never Forget Bundle",
+      "description": "Bundle reference supplied for THE HOOD.PK. Contact us on WhatsApp to confirm the included items, available colours, sizes, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "ca036ae2-d452-5fba-926a-4334a89225e9",
+          "product_id": "ef70d7aa-ec9b-5738-b759-75cd66b247fb",
+          "path": "ef70d7aa-ec9b-5738-b759-75cd66b247fb/photo-01.jpeg",
+          "alt": "Never Forget Bundle",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+        "slug": "combo-deals-bundles",
+        "name": "Combo Deals / Bundles",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 7,
+        "description": "",
+        "image_path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+        "image_alt": "Combo Deals / Bundles"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "8fdd5f05-7054-530f-a2b1-ef4ac46464b6",
+      "category_id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+      "name": "Statement Print Bundle",
+      "description": "Bundle reference supplied for THE HOOD.PK. Contact us on WhatsApp to confirm the included items, available colours, sizes, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "c4b623bb-51c5-5c4b-a531-ead8aed8d3f7",
+          "product_id": "8fdd5f05-7054-530f-a2b1-ef4ac46464b6",
+          "path": "8fdd5f05-7054-530f-a2b1-ef4ac46464b6/photo-01.jpeg",
+          "alt": "Statement Print Bundle",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+        "slug": "combo-deals-bundles",
+        "name": "Combo Deals / Bundles",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 7,
+        "description": "",
+        "image_path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+        "image_alt": "Combo Deals / Bundles"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "31d639a0-058a-5bc8-843a-6221d353d184",
+      "category_id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+      "name": "It Is What It Is Bundle",
+      "description": "Bundle reference supplied for THE HOOD.PK. Contact us on WhatsApp to confirm the included items, available colours, sizes, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "5f3f9d42-660f-5d8e-a48c-5b73692eebde",
+          "product_id": "31d639a0-058a-5bc8-843a-6221d353d184",
+          "path": "31d639a0-058a-5bc8-843a-6221d353d184/photo-01.jpeg",
+          "alt": "It Is What It Is Bundle",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+        "slug": "combo-deals-bundles",
+        "name": "Combo Deals / Bundles",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 7,
+        "description": "",
+        "image_path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+        "image_alt": "Combo Deals / Bundles"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "b21de1dc-6c15-5d14-bc3b-d7f4f5576d98",
+      "category_id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+      "name": "Off Duty Bundle",
+      "description": "Bundle reference supplied for THE HOOD.PK. Contact us on WhatsApp to confirm the included items, available colours, sizes, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "3a022a2e-ba1a-51dd-8728-6c139eed2a53",
+          "product_id": "b21de1dc-6c15-5d14-bc3b-d7f4f5576d98",
+          "path": "b21de1dc-6c15-5d14-bc3b-d7f4f5576d98/photo-01.jpeg",
+          "alt": "Off Duty Bundle",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+        "slug": "combo-deals-bundles",
+        "name": "Combo Deals / Bundles",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 7,
+        "description": "",
+        "image_path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+        "image_alt": "Combo Deals / Bundles"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "ddbb2e6f-8e5a-53a6-817d-1fd86ddf6da2",
+      "category_id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+      "name": "You Talk Too Much Bundle",
+      "description": "Bundle reference supplied for THE HOOD.PK. Contact us on WhatsApp to confirm the included items, available colours, sizes, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "2598bb40-8634-5a1d-a176-19644c959e5f",
+          "product_id": "ddbb2e6f-8e5a-53a6-817d-1fd86ddf6da2",
+          "path": "ddbb2e6f-8e5a-53a6-817d-1fd86ddf6da2/photo-01.jpeg",
+          "alt": "You Talk Too Much Bundle",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "9dadd04f-4f06-582a-a084-35098d2fafee",
+        "slug": "combo-deals-bundles",
+        "name": "Combo Deals / Bundles",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 7,
+        "description": "",
+        "image_path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+        "image_alt": "Combo Deals / Bundles"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+      "category_id": "7ff1fde4-fa98-5f02-94e0-fded298cc23a",
+      "name": "Plain Hoodie — 14 Colours",
+      "description": "Choose from the fourteen supplied hoodie colours and enquire on WhatsApp. Please confirm sizes, pricing and availability with our team before ordering.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [
+        {
+          "color": "Brown",
+          "color_hex": "#70432c"
+        },
+        {
+          "color": "Orange",
+          "color_hex": "#f0641a"
+        },
+        {
+          "color": "Yellow",
+          "color_hex": "#f5cd12"
+        },
+        {
+          "color": "Purple",
+          "color_hex": "#653990"
+        },
+        {
+          "color": "Red",
+          "color_hex": "#d91b2b"
+        },
+        {
+          "color": "Hot Pink",
+          "color_hex": "#e81777"
+        },
+        {
+          "color": "Lilac",
+          "color_hex": "#af88cf"
+        },
+        {
+          "color": "Navy Green",
+          "color_hex": "#123d2d"
+        },
+        {
+          "color": "Baby Blue",
+          "color_hex": "#8fb5d8"
+        },
+        {
+          "color": "White",
+          "color_hex": "#f4f1eb"
+        },
+        {
+          "color": "Light grey",
+          "color_hex": "#c4c5cb"
+        },
+        {
+          "color": "Black",
+          "color_hex": "#111111"
+        },
+        {
+          "color": "Baby Pink",
+          "color_hex": "#f3b8d0"
+        },
+        {
+          "color": "Navy Blue",
+          "color_hex": "#16233e"
+        }
+      ],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "649c885a-cb8e-5d59-9e74-816fdea5bd5e",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-01.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Brown",
+          "color": "Brown",
+          "position": 0
+        },
+        {
+          "id": "36fec35a-5cb8-5886-91b3-d1457723a8f8",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-02.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Orange",
+          "color": "Orange",
+          "position": 1
+        },
+        {
+          "id": "a479c13e-fc61-5db4-bd27-b741de01ed21",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-03.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Yellow",
+          "color": "Yellow",
+          "position": 2
+        },
+        {
+          "id": "53f8c56d-c650-5ff8-8feb-dff27de60881",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-04.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Purple",
+          "color": "Purple",
+          "position": 3
+        },
+        {
+          "id": "7f3531e8-6ef9-5df1-b4a9-313a9454e8bd",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-05.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Red",
+          "color": "Red",
+          "position": 4
+        },
+        {
+          "id": "6d0a4a8e-e8ad-57d5-8ca3-417101fee91c",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-06.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Hot Pink",
+          "color": "Hot Pink",
+          "position": 5
+        },
+        {
+          "id": "1620b321-00c2-5c4f-a024-b460bb2f5e1a",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-07.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Lilac",
+          "color": "Lilac",
+          "position": 6
+        },
+        {
+          "id": "e0f49135-9f99-5a9f-93b7-3aee723ee07e",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-08.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Navy Green",
+          "color": "Navy Green",
+          "position": 7
+        },
+        {
+          "id": "7ab94db3-8cdd-5ab8-b9f4-9273b0b5d7df",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-09.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Baby Blue",
+          "color": "Baby Blue",
+          "position": 8
+        },
+        {
+          "id": "85659acb-e39d-56f7-92f5-78b13492cd15",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-10.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — White",
+          "color": "White",
+          "position": 9
+        },
+        {
+          "id": "0abf1384-d7a8-59f4-8ee8-32f8da51b0da",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-11.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Light grey",
+          "color": "Light grey",
+          "position": 10
+        },
+        {
+          "id": "2d97a2f2-94f1-50a8-8230-cab0e5f3c1bf",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-12.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Black",
+          "color": "Black",
+          "position": 11
+        },
+        {
+          "id": "32c51c6a-d609-5572-91d7-1729317a4539",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-13.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Baby Pink",
+          "color": "Baby Pink",
+          "position": 12
+        },
+        {
+          "id": "918f87c4-42ee-5814-97e8-058a430ae0d0",
+          "product_id": "5a0610d1-b8cc-5e2e-b931-878969ab8841",
+          "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-14.jpeg",
+          "alt": "Plain Hoodie — 14 Colours — Navy Blue",
+          "color": "Navy Blue",
+          "position": 13
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "7ff1fde4-fa98-5f02-94e0-fded298cc23a",
+        "slug": "plain-hoodies",
+        "name": "Plain Hoodies",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 3,
+        "description": "",
+        "image_path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-01.jpeg",
+        "image_alt": "Plain Hoodies"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "03b529c4-add4-5061-8d59-2518e9d84fbc",
+      "category_id": "4e2ba1c5-97ef-5f96-9a9a-bb473b87467e",
+      "name": "Printed Collection — Option 01",
+      "description": "A reference option in our Printed collection. Share this photo on WhatsApp to discuss your preferred print, colour, size, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "52ed0c92-2fc9-5ba8-b519-d405469bde20",
+          "product_id": "03b529c4-add4-5061-8d59-2518e9d84fbc",
+          "path": "03b529c4-add4-5061-8d59-2518e9d84fbc/photo-01.jpeg",
+          "alt": "Printed Collection — Option 01",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "4e2ba1c5-97ef-5f96-9a9a-bb473b87467e",
+        "slug": "printed",
+        "name": "Printed",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 2,
+        "description": "",
+        "image_path": "03b529c4-add4-5061-8d59-2518e9d84fbc/photo-01.jpeg",
+        "image_alt": "Printed"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "a4735dd2-2a41-5422-8859-ef014d0e1b79",
+      "category_id": "4e2ba1c5-97ef-5f96-9a9a-bb473b87467e",
+      "name": "Printed Collection — Option 02",
+      "description": "A reference option in our Printed collection. Share this photo on WhatsApp to discuss your preferred print, colour, size, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "fa6ca079-ecab-5b9f-9b0c-660c2f83a4ef",
+          "product_id": "a4735dd2-2a41-5422-8859-ef014d0e1b79",
+          "path": "a4735dd2-2a41-5422-8859-ef014d0e1b79/photo-01.jpeg",
+          "alt": "Printed Collection — Option 02",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "4e2ba1c5-97ef-5f96-9a9a-bb473b87467e",
+        "slug": "printed",
+        "name": "Printed",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 2,
+        "description": "",
+        "image_path": "03b529c4-add4-5061-8d59-2518e9d84fbc/photo-01.jpeg",
+        "image_alt": "Printed"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    },
+    {
+      "id": "7dd1690b-5e72-5d1c-ada1-83940d7cf962",
+      "category_id": "4e2ba1c5-97ef-5f96-9a9a-bb473b87467e",
+      "name": "Printed Collection — Option 03",
+      "description": "A reference option in our Printed collection. Share this photo on WhatsApp to discuss your preferred print, colour, size, price and availability.",
+      "care": "",
+      "price_cents": 100000,
+      "sale_price_cents": null,
+      "status": "published",
+      "enquiry_only": false,
+      "inquiry_colours": [],
+      "department": "unisex",
+      "storefront": "hood",
+      "currency": "PKR",
+      "featured": false,
+      "new_arrival": false,
+      "created_at": "2026-11-15T00:00:00Z",
+      "product_images": [
+        {
+          "id": "3fafdd7b-dd07-57c6-9535-8e6870da346f",
+          "product_id": "7dd1690b-5e72-5d1c-ada1-83940d7cf962",
+          "path": "7dd1690b-5e72-5d1c-ada1-83940d7cf962/photo-01.jpeg",
+          "alt": "Printed Collection — Option 03",
+          "color": null,
+          "position": 0
+        }
+      ],
+      "product_variants": [],
+      "categories": {
+        "id": "4e2ba1c5-97ef-5f96-9a9a-bb473b87467e",
+        "slug": "printed",
+        "name": "Printed",
+        "is_active": true,
+        "is_accessory": false,
+        "display_order": 2,
+        "description": "",
+        "image_path": "03b529c4-add4-5061-8d59-2518e9d84fbc/photo-01.jpeg",
+        "image_alt": "Printed"
+      },
+      "source_import": "hood-whatsapp-2026-11-15",
+      "effective_price_cents": 100000
+    }
+  ],
+  "assets": [
+    {
+      "path": "f85b681f-13c3-54db-aeee-849641cd500f/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.06.33.jpeg",
+      "source_group": "combo-deals-bundles",
+      "sha256": "01ca282c684c9a881e16696afb335db607dba8909032e8a2dc93dbf3f7beb032"
+    },
+    {
+      "path": "ef70d7aa-ec9b-5738-b759-75cd66b247fb/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.06.33 (1).jpeg",
+      "source_group": "combo-deals-bundles",
+      "sha256": "f755a93f94b440136c75a05cb8e35638162ad8821ead4197a458fa23756da0ab"
+    },
+    {
+      "path": "8fdd5f05-7054-530f-a2b1-ef4ac46464b6/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.06.33 (2).jpeg",
+      "source_group": "combo-deals-bundles",
+      "sha256": "d6c0961a39106a13e34f1c311d83e8bf27db7c4eb14dad8b21c4467a98f015c8"
+    },
+    {
+      "path": "31d639a0-058a-5bc8-843a-6221d353d184/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.06.33 (3).jpeg",
+      "source_group": "combo-deals-bundles",
+      "sha256": "cbda189b2338f0f10287f960b042a4734d59f7da02d555050bf9605e7062ddca"
+    },
+    {
+      "path": "b21de1dc-6c15-5d14-bc3b-d7f4f5576d98/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.06.34.jpeg",
+      "source_group": "combo-deals-bundles",
+      "sha256": "d3744f31440464888023026aa779de3141bdf3de0f0c5c0f791922ab6c8d8b35"
+    },
+    {
+      "path": "ddbb2e6f-8e5a-53a6-817d-1fd86ddf6da2/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.06.34 (1).jpeg",
+      "source_group": "combo-deals-bundles",
+      "sha256": "059a8f1ca5e1179a0dbc37ea2351d02cf9268835d5c6dc46ec06c47303eae70b"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.11.jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "aebefc94f815566319a61cfb1d43d3da63f24aab2dbaf73d88d6859a6d8160b9"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-02.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.10 (3).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "9b40ae4a834d80063db35adec68c9646ca1413d985fadd7ceba75efe5dfd1299"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-03.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.10.jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "0e533577af611cc0af1c7a9da5e87adc73665388dfc291d84a73106b0e22e8b4"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-04.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.10 (1).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "11e787cefa5c8f1af3a61def25c6a5f4c194168c39202bde3c14ce76f5ae2e63"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-05.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.10 (2).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "ea21c37feb9d142a692fd78d025e223086ebd3384f93f4f1d891a0be7fceca06"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-06.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.09 (3).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "161c119792725f6f133804ea0b8cb1dddf890affbebc45d7180b1873e5377ad0"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-07.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.09 (2).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "997ccab4b791001d3ecc0746c21089b7b63cc58d4491524ea0e0bb9b67b15dee"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-08.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.09 (1).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "8fc32aec769b80dbe6670e833be541929deb9ebc085f5fe5c9cf8039b0131af5"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-09.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.09.jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "5cf7fc1aabc320495851b9ac5ec534891d84f2a04cf52257ef08245f2ab00a68"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-10.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.08 (2).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "339adcc81bd2f990cc3ed3b3a6b4ee107cb0f3c553ca077dc1ec39d7ab4d4233"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-11.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.08 (1).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "afda462ddc6e3bec9846c7daa0360028b1e341525ed8dd3954ce8245528a6561"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-12.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.08.jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "7fc4119ae917dbe87659e92ad98c8ca6b66d7554674921d639cae17dd8ea4253"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-13.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.07.jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "49377d314379f9a33e6e44d82e53dca3798643e181869f61b604ec4495ebf7d5"
+    },
+    {
+      "path": "5a0610d1-b8cc-5e2e-b931-878969ab8841/photo-14.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 01.01.11 (1).jpeg",
+      "source_group": "plain-hoodies",
+      "sha256": "1856268eef6bbf6f7e425aed6695827aec3bac97437d500ff2986b83b6578107"
+    },
+    {
+      "path": "03b529c4-add4-5061-8d59-2518e9d84fbc/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 00.59.43.jpeg",
+      "source_group": "printed",
+      "sha256": "90aefc4ba9f4b14501869443ed973ef0bf33038051ac2f31d54ed05f3a530470"
+    },
+    {
+      "path": "a4735dd2-2a41-5422-8859-ef014d0e1b79/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 00.59.44.jpeg",
+      "source_group": "printed",
+      "sha256": "afd355c1bb1e07f4afa0b3a9dda8b574600b9bcb671cf92e4acc0051f555a2ef"
+    },
+    {
+      "path": "7dd1690b-5e72-5d1c-ada1-83940d7cf962/photo-01.jpeg",
+      "source_file": "WhatsApp Image 2026-11-15 at 00.59.44 (1).jpeg",
+      "source_group": "printed",
+      "sha256": "f4747891bb92adf980c0729d4d472fd49f498246b35d6e917cf6ec725fb43b12"
+    }
+  ]
+}

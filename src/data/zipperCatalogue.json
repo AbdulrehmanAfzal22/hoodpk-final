@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": "8f0dca74-6a56-4652-8f33-e5bce41e367c",
+      "name": "Zipper Hoodie \u2014 Black",
+      "color": "Black",
+      "color_hex": "#111111",
+      "path": "8f0dca74-6a56-4652-8f33-e5bce41e367c/zipper.png"
+    },
+    {
+      "id": "0bfc3108-85f7-497b-8d37-a56b0f14e2d6",
+      "name": "Zipper Hoodie \u2014 Grey",
+      "color": "Grey",
+      "color_hex": "#c4c5cb",
+      "path": "0bfc3108-85f7-497b-8d37-a56b0f14e2d6/zipper.png"
+    },
+    {
+      "id": "57e6a02a-5b58-4fba-ace5-907bec182d92",
+      "name": "Zipper Hoodie \u2014 Navy Blue",
+      "color": "Navy Blue",
+      "color_hex": "#16233e",
+      "path": "57e6a02a-5b58-4fba-ace5-907bec182d92/zipper.png"
+    },
+    {
+      "id": "e9503a65-b287-4e03-823f-fb2fbd2cd021",
+      "name": "Zipper Hoodie \u2014 Maroon",
+      "color": "Maroon",
+      "color_hex": "#561b28",
+      "path": "e9503a65-b287-4e03-823f-fb2fbd2cd021/zipper.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "8f0dca74-6a56-4652-8f33-e5bce41e367c/zipper.png",
+      "sha256": "6b641ee7ba1b94b9767e6433e934538309bb36cdc64c0eda34ac6029a418893c"
+    },
+    {
+      "path": "0bfc3108-85f7-497b-8d37-a56b0f14e2d6/zipper.png",
+      "sha256": "50e534f670a19919e31554c299a75eca979ec8ec3478e8dfe59d46be41267525"
+    },
+    {
+      "path": "57e6a02a-5b58-4fba-ace5-907bec182d92/zipper.png",
+      "sha256": "e8469c731070089845320d9a5000f6fde7c88458d0769e6f29fe413c0466d068"
+    },
+    {
+      "path": "e9503a65-b287-4e03-823f-fb2fbd2cd021/zipper.png",
+      "sha256": "5e6967b6811724c128fd4b34ca877f6d3b57c46d495941c21fd097e3ed3f554c"
+    }
+  ]
+}

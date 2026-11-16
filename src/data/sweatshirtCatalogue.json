@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": "c65c7988-60cf-4323-89ee-51e00adeab05",
+      "name": "Sweatshirt \u2014 Baby Pink",
+      "color": "Baby Pink",
+      "color_hex": "#f3b8d0",
+      "path": "c65c7988-60cf-4323-89ee-51e00adeab05/sweatshirt.png"
+    },
+    {
+      "id": "578a5f73-c57a-4c95-a23b-2e4d9009665e",
+      "name": "Sweatshirt \u2014 White",
+      "color": "White",
+      "color_hex": "#f4f1eb",
+      "path": "578a5f73-c57a-4c95-a23b-2e4d9009665e/sweatshirt.png"
+    },
+    {
+      "id": "cd0c3407-65e8-498a-a2e5-cdacdbfa998e",
+      "name": "Sweatshirt \u2014 Maroon",
+      "color": "Maroon",
+      "color_hex": "#561b28",
+      "path": "cd0c3407-65e8-498a-a2e5-cdacdbfa998e/sweatshirt.png"
+    },
+    {
+      "id": "1a80ab36-7f1a-4a5f-8350-c1a9b40c35c9",
+      "name": "Sweatshirt \u2014 Black",
+      "color": "Black",
+      "color_hex": "#111111",
+      "path": "1a80ab36-7f1a-4a5f-8350-c1a9b40c35c9/sweatshirt.png"
+    },
+    {
+      "id": "442e672c-5722-4a18-9d03-ef30949d297e",
+      "name": "Sweatshirt \u2014 Royal Blue",
+      "color": "Royal Blue",
+      "color_hex": "#224ca7",
+      "path": "442e672c-5722-4a18-9d03-ef30949d297e/sweatshirt.png"
+    },
+    {
+      "id": "d70357af-0cbc-4c93-9017-91987f29a603",
+      "name": "Sweatshirt \u2014 Light Grey",
+      "color": "Light Grey",
+      "color_hex": "#c4c5cb",
+      "path": "d70357af-0cbc-4c93-9017-91987f29a603/sweatshirt.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "c65c7988-60cf-4323-89ee-51e00adeab05/sweatshirt.png",
+      "sha256": "664851c383fab5b605962e815a41a98f9d0fa5f1fbdd166c04376a883862aa80"
+    },
+    {
+      "path": "578a5f73-c57a-4c95-a23b-2e4d9009665e/sweatshirt.png",
+      "sha256": "c0ff17ba403e0af5971065f557e16b22747a64894f3dbba6fab533d8f5e2635e"
+    },
+    {
+      "path": "cd0c3407-65e8-498a-a2e5-cdacdbfa998e/sweatshirt.png",
+      "sha256": "1ec3d0468714966cd9f96c2c06ee01e7b3cf0370b75339fbb2855b4f9ca93134"
+    },
+    {
+      "path": "1a80ab36-7f1a-4a5f-8350-c1a9b40c35c9/sweatshirt.png",
+      "sha256": "4f31e669b4765319644bc078e4bb2607dc2e367cc8cc49b677e776df4f2ebce6"
+    },
+    {
+      "path": "442e672c-5722-4a18-9d03-ef30949d297e/sweatshirt.png",
+      "sha256": "f66b2afccb5f48c7b62521712063f167bce5a425cef4f8e50987f3ed38922847"
+    },
+    {
+      "path": "d70357af-0cbc-4c93-9017-91987f29a603/sweatshirt.png",
+      "sha256": "07dc9768a597d6fed46b5d643447868296ddfbb57cbd602691a2e57bd6d5cc88"
+    }
+  ]
+}

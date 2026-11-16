@@ -1,0 +1,1 @@
+Added Black, Grey, Navy Blue and Maroon to Zipper Hoodies using the supplied photos. Same current catalogue settings: Rs. 1,000, S/M/L/XL, 10 units per size. Customisation notes, cart and checkout use the existing integrated flow. Import already applied to cloth-web. Use updated frontend for the bundled photos; do not rerun full backend setup. 64 tests and production build pass.
